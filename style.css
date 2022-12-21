@@ -182,6 +182,9 @@ body {
     gap: 16px;
     margin-bottom: 20px;
 }
+.contacts__phone_number{
+    color: var(--text-color);
+}
 .contacts__phone_item {
     display: flex;
     align-items: center;
@@ -407,7 +410,7 @@ body {
         max-width: calc(100%);
     }
     .title{
-        max-width: 300px;
+        max-width: 100%;
     }
     .contacts{
         margin: 25px 0 77px 0;
